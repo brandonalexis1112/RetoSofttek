@@ -1,0 +1,51 @@
+.header {
+  z-index: 16;
+  position: relative;
+  display: flex;
+  justify-content: space-between;
+  color: #03050f;
+  height: 64px;
+  max-width: 1150px;
+  margin: 0 100px;
+
+  &__logo {
+    width: 73px;
+    height: 36px;
+    padding-top: 0.75rem;
+    padding-left: 20px 
+  }
+
+  &__text {
+    display: flex;
+    align-items: center;
+    margin-left: 10px;
+    font-size: 16px;
+
+    &__info {
+      margin-right: 10px;
+      font-size: 12px;
+      font-weight: 600;
+      line-height: 16px;
+      letter-spacing: 0.2px;
+      text-align: right;
+    }
+    &__container {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      gap: 2px;
+      svg {
+        height: 20px;
+        width: 20px;
+      }
+    }
+    &__number{
+      font-family: BR Sonoma;
+      font-size: 18px;
+      font-weight: 700;
+      line-height: 20px;
+      letter-spacing: 0.4px;
+      text-align: right;
+    }
+  }
+}

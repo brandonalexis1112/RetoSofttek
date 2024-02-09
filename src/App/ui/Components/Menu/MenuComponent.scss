@@ -1,0 +1,279 @@
+  .steps {
+    height: 56px;
+    background-color: #edeffc;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #7981b2;
+    &.container,
+    &.containerR {
+      padding-left: 4px;
+      gap: 16px;
+      &__1,
+      &__2 {
+        border: 1px solid;
+        border-width: 1px;
+        width: 24px;
+        border-radius: 50%;
+        height: 24px;
+        color: #7981b2;
+        font-size: 12px;
+      }
+      &__1 {
+        background-color: #4f4fff;
+        color: #fff;
+      }
+    }
+
+    &.plans {
+      color: #141938;
+      font-weight: 700;
+      line-height: 24px;
+      letter-spacing: 0.20000000298023224px;
+    }
+    &.resumen {
+      font-size: 16px;
+      margin: 0;
+    }
+  }
+  .back {
+    display: inline-flex;
+    margin: 40px 200px 15px;
+    &.fetch {
+      border: 2px solid #4f4fff;
+      width: 15px;
+      height: 15px;
+      border-radius: 50%;
+      margin: 6px;
+      justify-content: center;
+      align-items: center;
+      color: #4f4fff;
+
+      svg {
+        width: 5px;
+      }
+    }
+    &.text {
+      color: #4f4fff;
+      font-weight: 700;
+      margin: 0px;
+      font-size: 1.125rem;
+      line-height: 1.75rem;
+    }
+  }
+
+  .tittle {
+    max-width: 544px;
+    margin-left: auto;
+    margin-right: auto;
+
+    &.principal {
+      color: #141938;
+      margin-bottom: 16px;
+      font-size: 40px;
+      font-weight: 700;
+      line-height: 48px;
+      letter-spacing: -0.6000000238418579px;
+      text-align: center;
+    }
+    &.sub {
+      color: #141938;
+      font-size: 16px;
+      font-weight: 400;
+      line-height: 28px;
+      letter-spacing: 0.10000000149011612px;
+      text-align: center;
+    }
+  }
+  .for {
+    display: flex;
+    justify-content: center;
+    gap: 34px;
+    margin: 5px;
+    .me,
+    .other {
+      background-color: #ffffff;
+      border: 0px solid #d3d3d3;
+      border-radius: 24px;
+      padding: 16px 24px 40px;
+      box-shadow: 0px 0px 35px rgba(0, 0, 0, 0.1);
+      cursor: pointer;
+      transition: border-color 0.3s ease;
+      display: flex;
+      flex-direction: column;
+      align-items: flex-start;
+      max-width: 252px;
+      height: 212;
+      gap: 0px;
+      transition: transform 0.3s ease;
+
+      &:hover {
+        border-color: #000000;
+        transform: translateY(-5px);
+      }
+    }
+    .me,
+    .other {
+      box-sizing: border-box;
+    }
+    &.me__tittle,
+    &.other__tittle {
+      font-size: 20px;
+      font-weight: 900;
+      line-height: 28px;
+      letter-spacing: -0.20000000298023224px;
+      text-align: left;
+    }
+    &.me__sub,
+    &.other__sub {
+      font-size: 12px;
+      font-weight: 400;
+      line-height: 20px;
+      letter-spacing: 0.20000000298023224px;
+      text-align: left;
+    }
+  }
+  .plans {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 32px;
+  }
+  .plan {
+    margin-top: 20px;
+    margin-bottom: 60px;
+    width: 225px;
+    padding-left: 32px;
+    padding-bottom: 30px;
+    padding-right: 32px;
+    padding-top: 68px;
+    background-color: #ffffff;
+    border-radius: 24px;
+    box-shadow: 0 2px 20px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease;
+    cursor: pointer;
+
+    &:hover {
+      transform: translateY(-5px);
+    }
+    .name {
+      display: flex;
+      gap: 24px;
+    }
+    &.selected-plan {
+      img {
+        content: url("https://reto-rimac-2023.netlify.app/IcHospitalLight.svg");
+      }
+    }
+
+    h2 {
+      margin-top: 0;
+      font-size: 24px;
+      font-weight: 900;
+      line-height: 32px;
+      letter-spacing: -0.20000000298023224px;
+      text-align: left;
+    }
+    h3 {
+      margin-top: -5px;
+    }
+
+    .Price {
+      font-weight: 900;
+      &.tittle,
+      &.initial {
+        color: #7981b2;
+        font-family: Lato;
+        font-size: 12px;
+        line-height: 16px;
+        letter-spacing: 0.6px;
+        text-align: left;
+      }
+      &.initial {
+        text-decoration-line: line-through;
+      }
+    }
+    .line {
+      background-color: #d7dbf5;
+      height: 1px;
+      width: 100%;
+      margin-bottom: 20px;
+    }
+
+    ul {
+      display: inline-grid;
+      list-style: none;
+      padding: 0;
+      margin: 0;
+      gap: 25px;
+
+      li {
+        margin-bottom: 10px;
+        margin-left: 18px;
+      }
+    }
+    .btn {
+      background-color: #ff1c44;
+      color: #fff;
+      padding: 14px 32px;
+      border-radius: 32px;
+      line-height: 20px;
+      font-size: 18px;
+      font-weight: 700;
+      letter-spacing: 0.4px;
+      border: 0px;
+      margin-top: 30px;
+    }
+  }
+  .check {
+    width: 24px;
+    height: 24px;
+    border: 1px solid;
+    border-radius: 50%;
+    background-color: white;
+    transition: background-color 0.3s ease;
+    &.check1 {
+      border-color: #000;
+      &.__p {
+        text-align: center;
+        border: 0px;
+        background-color: transparent;
+        margin-top: 1px;
+        color: #fff;
+      }
+    }
+  }
+
+  .check1,
+  .check2 {
+    margin-left: auto;
+  }
+
+  .check1 {
+    border-color: #000;
+    &.__p {
+      text-align: center;
+      border: 0px;
+      background-color: transparent;
+      margin-top: 1px;
+      color: #fff;
+    }
+  }
+
+  .check2 {
+    border-color: #000;
+  }
+
+  .selected {
+    background-color: green;
+  }
+  .recommend {
+    margin-top: -25px;
+    background-color: #7df0ba;
+    border-radius: 6px;
+    padding: 2px 8px;
+    max-width: 122px;
+    font-size: 12px;
+    font-weight: 900;
+    letter-spacing: 0.5px;
+  }
