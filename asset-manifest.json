@@ -1,0 +1,25 @@
+{
+  "files": {
+    "main.css": "/repository-name/static/css/main.8c29d5bc.css",
+    "main.js": "/repository-name/static/js/main.35be049c.js",
+    "static/js/787.d03b8477.chunk.js": "/repository-name/static/js/787.d03b8477.chunk.js",
+    "static/media/login-portada.png": "/repository-name/static/media/login-portada.24eee3bd6b2b51de0886.png",
+    "static/media/blur-asset.png": "/repository-name/static/media/blur-asset.b85f90a57e64be06c69d.png",
+    "static/media/blur-asset-left.png": "/repository-name/static/media/blur-asset-left.66e24b750715ae25260b.png",
+    "static/media/Formore.svg": "/repository-name/static/media/Formore.48f0960b6eb9bfd29e8738147251ba12.svg",
+    "static/media/logo-footer.svg": "/repository-name/static/media/logo-footer.60f3a17f10d7884b6f175a9cc9cce038.svg",
+    "static/media/Forme.svg": "/repository-name/static/media/Forme.2e4469947f6ddea798d0ae0404981e80.svg",
+    "static/media/PlanHouse.svg": "/repository-name/static/media/PlanHouse.920be280d27dc725a21cb5d1cf8d4e1c.svg",
+    "static/media/rimac-logo.svg": "/repository-name/static/media/rimac-logo.bd7110abdcc9e6b39589bb5ab9a073a7.svg",
+    "static/media/PlanHospital.svg": "/repository-name/static/media/PlanHospital.2233be186f508190efee1c82246331e6.svg",
+    "index.html": "/repository-name/index.html",
+    "static/media/Line.svg": "/repository-name/static/media/Line.13405ef8366f0a306452a7468870b254.svg",
+    "main.8c29d5bc.css.map": "/repository-name/static/css/main.8c29d5bc.css.map",
+    "main.35be049c.js.map": "/repository-name/static/js/main.35be049c.js.map",
+    "787.d03b8477.chunk.js.map": "/repository-name/static/js/787.d03b8477.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.8c29d5bc.css",
+    "static/js/main.35be049c.js"
+  ]
+}
