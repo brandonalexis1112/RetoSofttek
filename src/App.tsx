@@ -7,15 +7,17 @@ import HeaderComponent from './App/ui/Components/Header/HeaderComponent';
 import ImageComponent from './App/ui/Components/Image/ImageComponent';
 const App: React.FC = () => {
   return (
-   <div>
-    <HeaderComponent />
-    <ImageComponent />
-    <FormComponent />
-    <FooterComponent />
-    <img className='fondo' src={imagenes.violet} alt="" />  
-    <img className='fondo2' src={imagenes.green} alt="" />
-   </div>
-    );
+    <div className="app-container">
+      <HeaderComponent />
+      <div className="content-container">
+        <ImageComponent />
+        <FormComponent />
+      </div>
+      <FooterComponent />
+      <img className='fondo' src={imagenes.violet} alt="" />  
+      <img className='fondo2' src={imagenes.green} alt="" />
+    </div>
+  );
 }
- 
+
 export default App;

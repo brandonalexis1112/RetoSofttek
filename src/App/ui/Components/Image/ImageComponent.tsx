@@ -5,7 +5,7 @@ import './ImageComponent.scss';
 const ImageComponent: React.FC = () => {
   return (
     <div className="image-container">
-      <img src = {imagenes.portada} alt="portada" className="image" />
+      <img src={imagenes.portada} alt="portada" className="image" />
     </div>
   );
 };
