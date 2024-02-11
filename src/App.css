@@ -3,8 +3,7 @@
 }
 .fondo {
   position: absolute;
-  top: 0;
-  bottom: 0;
+  bottom: -7rem ;
   width: 432px;
   height: 750px;
   display: block;
