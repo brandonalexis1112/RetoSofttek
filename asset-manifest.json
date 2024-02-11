@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/RetoSofttek/static/css/main.df003dcf.css",
+    "main.css": "/RetoSofttek/static/css/main.0348b69a.css",
     "main.js": "/RetoSofttek/static/js/main.1819d92d.js",
     "static/js/787.d03b8477.chunk.js": "/RetoSofttek/static/js/787.d03b8477.chunk.js",
     "static/media/login-portada.png": "/RetoSofttek/static/media/login-portada.24eee3bd6b2b51de0886.png",
@@ -14,12 +14,12 @@
     "static/media/PlanHospital.svg": "/RetoSofttek/static/media/PlanHospital.2233be186f508190efee1c82246331e6.svg",
     "index.html": "/RetoSofttek/index.html",
     "static/media/Line.svg": "/RetoSofttek/static/media/Line.13405ef8366f0a306452a7468870b254.svg",
-    "main.df003dcf.css.map": "/RetoSofttek/static/css/main.df003dcf.css.map",
+    "main.0348b69a.css.map": "/RetoSofttek/static/css/main.0348b69a.css.map",
     "main.1819d92d.js.map": "/RetoSofttek/static/js/main.1819d92d.js.map",
     "787.d03b8477.chunk.js.map": "/RetoSofttek/static/js/787.d03b8477.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.df003dcf.css",
+    "static/css/main.0348b69a.css",
     "static/js/main.1819d92d.js"
   ]
 }
