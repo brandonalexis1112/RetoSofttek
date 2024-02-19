@@ -1,12 +1,13 @@
 {
   "files": {
-    "main.css": "/RetoSofttek/static/css/main.0348b69a.css",
-    "main.js": "/RetoSofttek/static/js/main.1819d92d.js",
+    "main.css": "/RetoSofttek/static/css/main.84f3d4cf.css",
+    "main.js": "/RetoSofttek/static/js/main.102172ba.js",
     "static/js/787.d03b8477.chunk.js": "/RetoSofttek/static/js/787.d03b8477.chunk.js",
     "static/media/login-portada.png": "/RetoSofttek/static/media/login-portada.24eee3bd6b2b51de0886.png",
     "static/media/blur-asset.png": "/RetoSofttek/static/media/blur-asset.b85f90a57e64be06c69d.png",
     "static/media/blur-asset-left.png": "/RetoSofttek/static/media/blur-asset-left.66e24b750715ae25260b.png",
     "static/media/Formore.svg": "/RetoSofttek/static/media/Formore.48f0960b6eb9bfd29e8738147251ba12.svg",
+    "static/media/logo-footer-2.svg": "/RetoSofttek/static/media/logo-footer-2.f491f2a794c60e137fc84dc55d4c0e55.svg",
     "static/media/logo-footer.svg": "/RetoSofttek/static/media/logo-footer.60f3a17f10d7884b6f175a9cc9cce038.svg",
     "static/media/Forme.svg": "/RetoSofttek/static/media/Forme.2e4469947f6ddea798d0ae0404981e80.svg",
     "static/media/PlanHouse.svg": "/RetoSofttek/static/media/PlanHouse.920be280d27dc725a21cb5d1cf8d4e1c.svg",
@@ -14,12 +15,12 @@
     "static/media/PlanHospital.svg": "/RetoSofttek/static/media/PlanHospital.2233be186f508190efee1c82246331e6.svg",
     "index.html": "/RetoSofttek/index.html",
     "static/media/Line.svg": "/RetoSofttek/static/media/Line.13405ef8366f0a306452a7468870b254.svg",
-    "main.0348b69a.css.map": "/RetoSofttek/static/css/main.0348b69a.css.map",
-    "main.1819d92d.js.map": "/RetoSofttek/static/js/main.1819d92d.js.map",
+    "main.84f3d4cf.css.map": "/RetoSofttek/static/css/main.84f3d4cf.css.map",
+    "main.102172ba.js.map": "/RetoSofttek/static/js/main.102172ba.js.map",
     "787.d03b8477.chunk.js.map": "/RetoSofttek/static/js/787.d03b8477.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.0348b69a.css",
-    "static/js/main.1819d92d.js"
+    "static/css/main.84f3d4cf.css",
+    "static/js/main.102172ba.js"
   ]
 }
