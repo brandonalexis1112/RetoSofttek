@@ -119,45 +119,58 @@ const MenuComponent: React.FC = () => {
                 <div className="steps container">
                     <div className="steps container__1">1</div>
                     <p className="steps plans">Planes y coberturas</p>
-                    <img className="line" src="https://reto-rimac-2023.netlify.app/line-progress.svg" alt="" />
-                </div>
+                    <img src={imagenes.line} alt="..." />
+                    </div>
                 <div className="steps container">
                     <div className="steps containerR__2">2</div>
                     <p className="steps resumen "> Resumen </p>
                 </div>
             </div>
-            <div className="back" onClick={handleBackClick}>
-                <div className="back fetch">
+            <div className="step-mobile">
+            <div className="back_m" onClick={handleBackClick}>
+                <div className="back_m fetch">
+            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 320 512"><path d="M41.4 233.4c-12.5 12.5-12.5 32.8 0 45.3l160 160c12.5 12.5 32.8 12.5 45.3 0s12.5-32.8 0-45.3L109.3 256 246.6 118.6c12.5-12.5 12.5-32.8 0-45.3s-32.8-12.5-45.3 0l-160 160z" /></svg></div>
+            </div>
+            <div className="back_m-text">
+                <label >Paso 1 de 2</label>
+            </div>
+            <div className="back_m-line">
+                <div className="back_m-line mt-blue"></div>
+            </div>
+            </div>
+            <div className="line"></div>
+            <div className="back_p" onClick={handleBackClick}>
+                <div className="back_p fetch">
                     <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 320 512"><path d="M41.4 233.4c-12.5 12.5-12.5 32.8 0 45.3l160 160c12.5 12.5 32.8 12.5 45.3 0s12.5-32.8 0-45.3L109.3 256 246.6 118.6c12.5-12.5 12.5-32.8 0-45.3s-32.8-12.5-45.3 0l-160 160z" /></svg></div>
-                <label className="back text"  >
+                <label className="back_p text"  >
                     Volver
                 </label>
             </div>
             <div className="tittle">
-                <h2 className=" tittle principal">
+                <h2 className=" tittle__principal">
                     Rocío ¿Para quién deseas cotizar?
                 </h2>
-                <p className="tittle sub">Selecciona la opción que se ajuste más a tus necesidades.
+                <p className="tittle__sub">Selecciona la opción que se ajuste más a tus necesidades.
                 </p>
             </div>
             <div className="for">
-                <div className="for me" onClick={() => handleSelection("forMe")}>
+                <div className="for-me" onClick={() => handleSelection("forMe")}>
                     <div className="check check1">
                         <p className="check check1 __p" >✓</p>
                     </div>
                     <img src={imagenes.img1} alt="for me" />
-                    <p className="for me__tittle">Para mí</p>
-                    <p className="for me__sub">
+                    <p className="for-me__tittle">Para mí</p>
+                    <p className="for-me__sub">
                         Cotiza tu seguro de salud y agrega familiares si así lo deseas.
                     </p>
                 </div>
-                <div className="for other" onClick={() => handleSelection("forOther")}>
+                <div className="for-other" onClick={() => handleSelection("forOther")}>
                     <div className="check check2">
                         <p className="check check1 __p" >✓</p>
                     </div>
                     <img src={imagenes.img2} alt="for me" />
-                    <p className="for other__tittle">Para alguien más</p>
-                    <p className="for other__sub">
+                    <p className="for-other__tittle">Para alguien más</p>
+                    <p className="for-other__sub">
                         Realiza una cotización para uno de tus familiares o cualquier
                         persona.
                     </p>
@@ -172,9 +185,9 @@ const MenuComponent: React.FC = () => {
                                 className={`plan${selectedPlan && selectedPlan.name === plan.name ? ' selected-plan' : ''}`}
                                 onClick={() => selectPlanAndRedirect(plan)}
                             >
-                                 {plan.name === "Plan en Casa y Clínica" && (
-                <div className="recommend">Plan Recomendado</div>
-            )}
+                                {plan.name === "Plan en Casa y Clínica" && (
+                                    <div className="recommend">Plan Recomendado</div>
+                                )}
                                 <div>
                                     <div className="name">
                                         <h2>{plan.name}</h2>

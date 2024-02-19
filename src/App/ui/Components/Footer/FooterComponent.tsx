@@ -4,8 +4,10 @@ import './FooterComponent.scss';
 
 const FooterComponent: React.FC = () => {
   return (
-    <footer className="footer">
-      <img className="footer__logo" src={imagenes.logo2} alt="Logo" />
+   
+   <footer className="footer">
+      <img className="footer__logo mm" src={imagenes.logo2} alt="Logo" />
+      <img className="footer__logo mb" src={imagenes.logo3} alt="Logo" />
       <p className="footer__right">© 2024 RIMAC Seguros y Reaseguros.</p>
     </footer>
   );

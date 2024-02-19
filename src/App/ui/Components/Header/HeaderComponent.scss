@@ -21,7 +21,6 @@
     margin-left: 10px;
     font-size: 16px;
 
-
     &__info {
       margin-right: 10px;
       font-size: 12px;
@@ -46,6 +45,23 @@
       line-height: 20px;
       letter-spacing: 0.4px;
       text-align: right;
+    }
+  }
+}
+@media (max-width: 768px) {
+  .header {
+    margin: 0 0 0.5rem;
+    &__logo{
+      height: 32px;
+    }
+    &__text {
+      margin-right: 1.5rem;
+      &__info {
+        display: none;
+      }
+      &__number{
+        letter-spacing: -1px;
+      }
     }
   }
 }

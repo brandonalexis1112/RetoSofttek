@@ -6,12 +6,14 @@ import homePlan from './Img/PlanHouse.svg';
 import violetLogin from './Img/blur-asset-left.png';
 import greenLogin from './Img/blur-asset.png';
 import portadaLogin from './Img/login-portada.png';
+import rimacLogoFooterM from './Img/logo-footer-2.svg';
 import rimacLogofooter from './Img/logo-footer.svg';
 import rimacLogo from './Img/rimac-logo.svg';
 
 const imagenes = {
         logo: rimacLogo,
         logo2: rimacLogofooter,
+        logo3: rimacLogoFooterM,
         portada: portadaLogin,
         img1: forMe,
         img2: forOther,

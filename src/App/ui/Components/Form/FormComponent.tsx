@@ -74,6 +74,7 @@ const FormComponent: React.FC = () => {
         <div className='form-group__tittle principal'>Creado para ti y tu familia</div>
       </div>
       <div className='form-login'>
+      <div className="line"></div>
       <div className="form-login text1">
         <label htmlFor="text1">Tú eliges cuánto pagar. Ingresa tus datos, cotiza y recibe nuestra asesoría, 100% online.</label>
       </div>

@@ -19,3 +19,34 @@
     margin: 7.5rem;
   }
   
+
+  @media (min-width: 768px) {
+    .footer{
+      &__logo{
+        &.mb{
+            display: none;
+        }
+      }
+    }
+  } 
+  @media (max-width: 768px) {
+    .footer{
+      flex-direction: column;
+      bottom: 0rem;
+      padding: 25px 0;
+
+      &__logo,&__right{
+        margin: 0;
+        &.mm{
+          display: none;
+        }
+        &.mb{
+          padding-top: 10px;
+        }
+      }
+      &__right{
+        padding-bottom: 10px;
+        font-size: 13px;
+      }
+    }
+  }

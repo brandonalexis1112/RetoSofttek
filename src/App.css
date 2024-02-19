@@ -21,3 +21,18 @@
   display: flex;
   justify-content: center;
 }
+@media (max-width: 768px) {
+  .content-container {
+    flex-direction: row-reverse;
+  }
+  .fondo{
+    bottom: 9.5rem;
+    height: 10.5rem;
+    width: 9.5rem;
+  }
+  .fondo2{
+    top: -2rem;
+    height: 14.5rem;
+    width: 18.5rem;
+  }
+}
