@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/RetoSofttek/static/css/main.84f3d4cf.css",
-    "main.js": "/RetoSofttek/static/js/main.102172ba.js",
+    "main.css": "/RetoSofttek/static/css/main.d894c34f.css",
+    "main.js": "/RetoSofttek/static/js/main.d8492232.js",
     "static/js/787.d03b8477.chunk.js": "/RetoSofttek/static/js/787.d03b8477.chunk.js",
     "static/media/login-portada.png": "/RetoSofttek/static/media/login-portada.24eee3bd6b2b51de0886.png",
     "static/media/blur-asset.png": "/RetoSofttek/static/media/blur-asset.b85f90a57e64be06c69d.png",
@@ -15,12 +15,12 @@
     "static/media/PlanHospital.svg": "/RetoSofttek/static/media/PlanHospital.2233be186f508190efee1c82246331e6.svg",
     "index.html": "/RetoSofttek/index.html",
     "static/media/Line.svg": "/RetoSofttek/static/media/Line.13405ef8366f0a306452a7468870b254.svg",
-    "main.84f3d4cf.css.map": "/RetoSofttek/static/css/main.84f3d4cf.css.map",
-    "main.102172ba.js.map": "/RetoSofttek/static/js/main.102172ba.js.map",
+    "main.d894c34f.css.map": "/RetoSofttek/static/css/main.d894c34f.css.map",
+    "main.d8492232.js.map": "/RetoSofttek/static/js/main.d8492232.js.map",
     "787.d03b8477.chunk.js.map": "/RetoSofttek/static/js/787.d03b8477.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.84f3d4cf.css",
-    "static/js/main.102172ba.js"
+    "static/css/main.d894c34f.css",
+    "static/js/main.d8492232.js"
   ]
 }
