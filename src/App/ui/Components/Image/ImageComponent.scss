@@ -1,6 +1,6 @@
 .image-container {
   float: left;
-  padding: 40px 130px 90px 0px;
+  padding: 40px 70px;
   position: relative;
   z-index: 10;
 }
@@ -8,7 +8,7 @@
 .image {
   max-width: 100%;
   width: 480px;
-  height: 560px;
+  height: auto;
   border-radius: 20px;
 }
 @media (max-width: 768px) {

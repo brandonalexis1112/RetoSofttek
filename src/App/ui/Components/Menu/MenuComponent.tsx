@@ -177,6 +177,7 @@ const MenuComponent: React.FC = () => {
                 </div>
             </div>
             {showPlans && (
+                 <div className="plans-container">
                 <div className="plans">
                     {filteredPlans.length > 0 ? (
                         filteredPlans.map((plan, index) => (
@@ -217,6 +218,7 @@ const MenuComponent: React.FC = () => {
                     ) : (
                         <p>No hay planes disponibles para tu edad.</p>
                     )}
+                </div>
                 </div>
             )}
         </div>
